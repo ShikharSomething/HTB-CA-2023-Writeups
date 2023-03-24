@@ -1,5 +1,7 @@
 Challenge name: Trapped Source
+
 Category: WEB
+
 Description: Intergalactic Ministry of Spies tested Pandora's movement and intelligence abilities. She found herself locked in a room with no apparent means of escape. Her task was to unlock the door and make her way out. Can you help her in opening the door?
 
 My first-thoughts: This is a very easy challenge.... let's finish this up fast

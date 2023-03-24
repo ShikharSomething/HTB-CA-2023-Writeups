@@ -13,5 +13,5 @@ Solution: So I saw the keypad and thought I can try entering random lock passwor
 			modelName: "Valencia",
 			correctPin: "8291",
 		}
-	```
+
   Now there you have the correct pin... enter the pin "8291" and get the flag. Yea the flag is displayed when you enter 8291 in the keypad.

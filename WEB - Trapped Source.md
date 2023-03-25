@@ -1,13 +1,14 @@
-Challenge name: Trapped Source
+**Challenge name:** Trapped Source
 
-Category: WEB
+**Category:** WEB
 
-Description: Intergalactic Ministry of Spies tested Pandora's movement and intelligence abilities. She found herself locked in a room with no apparent means of escape. Her task was to unlock the door and make her way out. Can you help her in opening the door?
+**Description:** Intergalactic Ministry of Spies tested Pandora's movement and intelligence abilities. She found herself locked in a room with no apparent means of escape. Her task was to unlock the door and make her way out. Can you help her in opening the door?
 
-My first-thoughts: This is a very easy challenge.... let's finish this up fast
-Challenge overview: We are provided with a docker to spawn (no source code) and as soon as you spawn the docker you get some vault locker kind of webpage. All we have to do is unlock this locker.... But how do we do it?
+**My first-thoughts:** This is a very easy challenge.... let's finish this up fast
 
-Solution: So I saw the keypad and thought I can try entering random lock passwords like 1234, 6789, etc. None of those worked then I opened up the webpage in f12-dev menu where I was able to see all of the source code. And there I Found some javascript code in the <script> tag which looked something like this.
+**Challenge overview:** We are provided with a docker to spawn (no source code) and as soon as you spawn the docker you get some vault locker kind of webpage. All we have to do is unlock this locker.... But how do we do it?
+
+**Solution:** So I saw the keypad and thought I can try entering random lock passwords like 1234, 6789, etc. None of those worked then I opened up the webpage in f12-dev menu where I was able to see all of the source code. And there I Found some javascript code in the <script> tag which looked something like this.
 ```
 		window.CONFIG = window.CONFIG || {
 			buildNumber: "v20190816",
